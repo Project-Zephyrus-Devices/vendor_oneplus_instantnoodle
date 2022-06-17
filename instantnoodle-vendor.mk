@@ -41,6 +41,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/instantnoodle/proprietary/vendor/etc/camera/segment.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/segment.dlc \
     vendor/oneplus/instantnoodle/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/oneplus/instantnoodle/proprietary/vendor/etc/init/calibrationOutput_uw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/calibrationOutput_uw.rc \
+    vendor/oneplus/instantnoodle/proprietary/vendor/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc \
+    vendor/oneplus/instantnoodle/proprietary/vendor/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc \
+    vendor/oneplus/instantnoodle/proprietary/vendor/etc/init/vl53l1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vl53l1.rc \
     vendor/oneplus/instantnoodle/proprietary/vendor/etc/inparm/irissoft/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm1.txt \
     vendor/oneplus/instantnoodle/proprietary/vendor/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm10.txt \
     vendor/oneplus/instantnoodle/proprietary/vendor/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm11.txt \
@@ -406,7 +409,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
     vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libmorpho_dcface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_dcface.so \
@@ -435,5 +437,4 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libyuv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyuv2.so \
     vendor/oneplus/instantnoodle/proprietary/vendor/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.hal.tof.so \
     vendor/oneplus/instantnoodle/proprietary/vendor/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so \
-    vendor/oneplus/instantnoodle/proprietary/vendor/lib64/vendor.oneplus.hardware.camera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.camera@1.0.so \
-    vendor/oneplus/instantnoodle/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+    vendor/oneplus/instantnoodle/proprietary/vendor/lib64/vendor.oneplus.hardware.camera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.camera@1.0.so
